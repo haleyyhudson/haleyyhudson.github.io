@@ -3,18 +3,24 @@
    ========================================================================== */
 
 /* Color codes used for the theme */
-$gray                       : #001f4d;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
+$primary-color              : #00adb5;           // keep accent color
+$dark-primary-color         : mix(#000, $primary-color, 40%);
+$darker-primary-color       : mix(#000, $primary-color, 60%);
+$light-primary-color        : mix(#000, $primary-color, 50%);
 
-$background                 : #001f4d;
-$background-light           : mix(#fff, $background, 80%);
-$background-lighter         : mix(#fff, $background, 90%);
-$text                       : #ffffff;
-$link                       : #0ea1c5;
+/* Background colors */
+$background                 : #001f4d;           // dark blue main background
+$background-light           : mix(#fff, $background, 15%);  // lighter sections/panels
+$background-lighter         : mix(#fff, $background, 80%);  // even lighter panels
+$text                       : #eaeaea;           // light gray for readability
+
+/* Link colors */
+$link                       : mix($primary-color, $text, 40%);
 $link-dark                  : mix(#000, $link, 25%);
 $link-light                 : mix(#fff, $link, 25%);
+
+/* Footer */
+$footer                     : mix(#000, $background, 50%);
 
 /* Color codes used for the site */
 $danger-color               : #ee5f5b;
