@@ -1,6 +1,7 @@
 ---
 permalink: /
-title: "Haley Hudson- Ocean and Climate Scientist, PhD Candidate at Oregon State University"
+title: "Haley Hudson
+Ocean and Climate Scientist, PhD Candidate at Oregon State University"
 author_profile: true
 redirect_from: 
   - /about/
