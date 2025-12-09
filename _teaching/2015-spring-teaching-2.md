@@ -8,6 +8,8 @@ date: 2024-01-08
 location: "Corvallis, OR"
 ---
 
+Teaching concepts around organism physiology, ecological, and environmental interactions through experience based learning.
+
 Conduct an introductory biology laboratory for 40 undergraduate students including delivering introduction lectures, grading, holding office hours, answering student emails, and writing syllabi. Teaching in a backward design model and facilitate a course-based undergraduate research experience. 
 
 Taught: Winter 2022, Winter 2024  

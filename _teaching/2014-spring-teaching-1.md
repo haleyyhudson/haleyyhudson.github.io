@@ -8,6 +8,8 @@ date: 2025-09-01
 location: "Corvallis, OR"
 ---
 
+Teaching concepts in cell molecular biology, DNA extraction, amplification, and sequencing techniques. 
+
 Conduct an introductory biology laboratory for 40 undergraduate students including delivering introduction lectures, grading, holding office hours, answering student emails, and writing syllabi. Teaching in a backward design model and facilitate a course-based undergraduate research experience. 
 
 Taught: Fall 2023, Fall 2024  
