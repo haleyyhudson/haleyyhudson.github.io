@@ -1,7 +1,6 @@
-# Research
 ---
-title: "Research"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Research Projects"
+excerpt: "Ocean Ecological and Biogeochemical Dynamics under Climate Change 1<br/><img src='/images/500x300.png'>"
 collection: research
 ---
 
