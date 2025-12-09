@@ -1,9 +1,10 @@
 ---
-title: "Research Project #2"
-excerpt: 'Ocean Ecological and Biogeochemical Dynamics under Climate Change 1<br/><img src="/images/Project Photo.JPG">'
+title: "Hypoxia and Ocean Carbon Sequestration"
+excerpt: >
+  Is the Degradation of Dissolved Organic Matter Controlled By Oxygen Concentration?  
+  <br/><img src="/images/cruise_selfie.jpeg" alt="Cruise Selfie">
 collection: research
 ---
 
-Studying climate change adaptation and mitigation in the ocean. In a collaborative partnership with the Agencies, Tribes, and commercial fishers, I investigate climate change stressors to marine resources utilizing a novel ocean observing system. I study the impact of hypoxia (water low in dissolved oxygen) on Dungeness crab within Puget Sound. I also map the spatial and temporal variability of hypoxia and exposure to ocean acidification in the area to inform management of these marine resources.
-
+I measure microbial respiration rates in biological oxygen demand bottles using novel optode sensors paired with carbonate chemistry to understand how oxygen **influences the degradation** of organic matter in the ocean.
 
