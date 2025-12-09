@@ -1,6 +1,6 @@
 ---
 title: "Research Projects"
-excerpt: "Ocean Ecological and Biogeochemical Dynamics under Climate Change 1<br/><img src='/images/500x300.png'>"
+excerpt: "Ocean Ecological and Biogeochemical Dynamics under Climate Change 1<br/><img src='/images/Project Photo.JPG'>"
 collection: research
 ---
 
