@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
 venue: "Oregon State University , Department of Integrative Biology"
-date: 2023-2025
+date: 2025-09-01
 location: "Corvallis, OR"
 ---
 
