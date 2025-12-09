@@ -1,20 +1,18 @@
 ---
-title: "Teaching experience 1"
+title: "BI 221: Cells"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "Oregon State University , Department of Integrative Biology"
+date: 2023-2025
+location: "Corvallis, OR"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Conduct an introductory biology laboratory for 40 undergraduate students including delivering introduction lectures, grading, holding office hours, answering student emails, and writing syllabi. Teaching in a backward design model and facilitate a course based undergraduate research experience. 
 
-Heading 1
-======
+Taught: Fall 2023, Fall 2024 
+Honors instruction: Fall 2025
 
-Heading 2
+Skills Taught
 ======
-
-Heading 3
-======
+Microscopy, Precise Pipetting, Polymerase Chain Reaction (PCR), Gel Electrophloresis, Prep for Sanger Sequencing (DNA Sequencing), Excel
