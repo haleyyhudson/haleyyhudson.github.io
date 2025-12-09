@@ -232,7 +232,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   research:
-    output: true
+    output: false
     permalink: /research/:title/
 
 

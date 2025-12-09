@@ -1,6 +1,6 @@
 ---
-title: "Hypoxia Monitoring"
-excerpt: 'Ocean Ecological and Biogeochemical Dynamics under Climate Change <br/><img src="/images/Project Photo.JPG">'
+title: "Research Project #2"
+excerpt: 'Ocean Ecological and Biogeochemical Dynamics under Climate Change 1<br/><img src="/images/Project Photo.JPG">'
 collection: research
 ---
 
