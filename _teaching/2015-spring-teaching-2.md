@@ -3,6 +3,7 @@ title: "BI 222: Organisms"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-2
+image: "BI222.jpeg"
 venue: "Oregon State University, Department of Integrative Biology"
 date: 2024-01-08
 location: "Corvallis, OR"

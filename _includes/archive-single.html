@@ -13,17 +13,23 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
+  {% assign teaching_layout = include.type == "teaching" %}
+  <article class="archive__item{% if teaching_layout %} archive__item-teaching{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
+    {% assign featured_image = teaser | default: post.image %}
+    {% if featured_image %}
       <div class="archive__item-teaser">
         <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
+          {% if featured_image contains "://" %}
+            "{{ featured_image }}"
           {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+            "{{ featured_image | prepend: "/images/" | prepend: base_path }}"
           {% endif %}
-          alt="">
+          alt="{{ post.title | escape }}">
       </div>
+    {% endif %}
+
+    {% if teaching_layout %}
+      <div class="archive__item-body">
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
@@ -78,6 +84,10 @@
       <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% elsif post.bibtexurl %}
       <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+    {% endif %}
+
+    {% if teaching_layout %}
+      </div>
     {% endif %}
 
   </article>
