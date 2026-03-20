@@ -2,7 +2,7 @@
 title: "BI 221: Cells"
 collection: teaching
 type: "Undergraduate course"
-teaser: "teaching-bio.png"  # or full URL, e.g. https://yourdomain.com/path/to/image.jpg
+# teaser: "teaching-bio.png"  # or full URL, e.g. https://yourdomain.com/path/to/image.jpg
 # image can also be used as alternative key:
 image: "BI221.jpeg"
 permalink: /teaching/2014-spring-teaching-1
