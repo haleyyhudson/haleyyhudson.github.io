@@ -6,7 +6,7 @@ permalink: /teaching/2016-spring-teaching-3
 venue: "Oregon State University, Department of Integrative Biology"
 date: 2023-03-01
 location: "Corvallis, OR"
-image: "BI223.jpg"
+image: "BI223.jpeg"
 ---
 
 Teaching concepts in ecosystem ecology, biodiversity, and environmental interactions.
