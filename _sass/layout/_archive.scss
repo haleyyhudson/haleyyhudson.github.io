@@ -71,37 +71,39 @@
   overflow: hidden;
   img {
     width: 100%;
-    max-height: 100px;
   }
 }
 
 .archive__item-teaching {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  align-items: flex-start;
+  display: block;
 
   .archive__item-teaser {
-    width: 120px;
-    flex: 0 0 120px;
-    max-width: 25%;
-    min-width: 100px;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    
+    img {
+      width: 100%;
+      height: auto;
+      max-height: none;
+    }
   }
 
   .archive__item-body {
-    flex: 1 1 0;
-    min-width: 0;
+    width: 100%;
   }
+}
 
-  @include breakpoint($small) {
-    display: block;
-
-    .archive__item-teaser {
-      width: 100%;
-      flex: 0 0 auto;
-      max-width: 100%;
-      margin-bottom: 0.75rem;
-    }
+/* Teaching page image display */
+.page__image-teaching {
+  margin: 2rem 0;
+  max-width: 400px;
+  
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: $border-radius;
   }
 }
 

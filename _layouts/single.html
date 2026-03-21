@@ -47,6 +47,18 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
+        {% if page.collection == 'teaching' and page.image %}
+          <figure class="page__image-teaching">
+            <img src="
+              {% if page.image contains "://" %}
+                {{ page.image }}
+              {% else %}
+                {{ page.image | prepend: "/images/" | prepend: base_path }}
+              {% endif %}"
+              alt="{{ page.title | escape }}">
+          </figure>
+        {% endif %}
+
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.paperurl and page.slidesurl %}
