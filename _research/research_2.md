@@ -1,8 +1,8 @@
 ---
 title: "Hypoxia and Ocean Carbon Sequestration"
 excerpt: >
-  Is the Degradation of Dissolved Organic Matter Controlled By Oxygen Concentration?  
-  <br/><img src="/images/cruise_selfie.jpeg" alt="Cruise Selfie">
+  Is the Degradation of Dissolved Organic Matter Controlled By Oxygen Concentration?
+image: cruise_selfie.jpeg
 collection: research
 ---
 

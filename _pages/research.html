@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: ""
+title: "Research"
 permalink: /research/
 author_profile: true
 ---
@@ -11,22 +11,33 @@ author_profile: true
 <h1>{{ page.title }}</h1>
 
 {% for project in site.research %}
-  <div class="research-blurb">
-    <h2>{{ project.title }}</h2>
+  <div class="research__item">
+    <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+      {% if project.image %}
+        <div class="archive__item-teaser">
+          {% assign featured_image = project.image %}
+          {% if featured_image contains "://" %}
+            <img src="{{ featured_image }}" alt="{{ project.title }}">
+          {% else %}
+            <img src="{{ featured_image | prepend: "/images/" | prepend: base_path }}" alt="{{ project.title }}">
+          {% endif %}
+        </div>
+      {% endif %}
 
-    {% if project.excerpt %}
-      <p>{{ project.excerpt | markdownify }}</p>
-    {% endif %}
+      <div class="archive__item-body">
+        <h2 class="archive__item-title" itemprop="headline">
+          <a href="{{ project.url | relative_url }}" rel="permalink">{{ project.title }}</a>
+        </h2>
 
-    {% if project.image %}
-      <img src="{{ project.image }}" alt="{{ project.title }}">
-    {% endif %}
+        {% if project.excerpt %}
+          <div class="archive__item-excerpt" itemprop="description">{{ project.excerpt | markdownify }}</div>
+        {% endif %}
 
-    {% if project.content %}
-      <div class="research-content">
-        {{ project.content | markdownify }}
+        {% if site.read_more == 'enabled' %}
+          <p><strong><a href="{{ project.url | relative_url }}">Read more</a></strong></p>
+        {% endif %}
       </div>
-    {% endif %}
+    </article>
   </div>
 {% endfor %}
 
